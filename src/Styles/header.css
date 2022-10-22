@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Patua+One&display=swap");
+* {
+  background-color: #121826;
+}
+header {
+  background-color: #121826;
+  display: flex;
+  padding-left: 100px;
+  font-family: "Lato", sans-serif;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 75px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  padding-right: 150px;
+}
+#signup {
+  background-color: #539d98;
+  border-radius: 9999px;
+  margin-left: 60px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.8em;
+}
+#bg {
+  width: 100%;
+  position: relative;
+  /* top: -369px; */
+}
+.info {
+  background-color: #121826;
+  color: white;
+  padding-top: 175px;
+  padding-left: 100px;
+}
+
+.btn {
+  background-color: aquamarine;
+  color: #121826;
+}
+
+.para {
+  max-width: 449px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #121826;
+}
