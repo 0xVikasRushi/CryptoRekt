@@ -3,28 +3,17 @@ import "../Styles/home.css";
 const Home = () => {
   return (
     <>
-      {/* <header>
-        <div className="main-header">
-          <img src="Play.svg" alt="logo" id="logo" />
-          <a href="/">Trending</a>
-          <a href="/">Crypto News </a>
-          <a href="/">My Wishlist</a>
-          <a href="/">Github</a>
-        </div>
-        <div className="header-btn">
-          <a href="/">Login</a>
-          <button id="signup">Sign Up</button>
-        </div>
-      </header> */}
       <div className="wrapper">
         <div className="info">
           <h1>
-            Information About <br /> <span>CryptoCurrency</span>
+            CryptoRekt <span>Wishlist</span>
           </h1>
-          <p id="para">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro sit
-          </p>
-          <button className="btn">Get Started</button>
+          <h4 id="para">Trending CryptoCurrency &#128640;</h4>
+          <a href="/trending">
+            <button className="btn" onClick={"/trending"}>
+              Top 7 Trending &#128176;
+            </button>
+          </a>
         </div>
         <div className="bg-image">
           <img src="bg.png" alt="" />

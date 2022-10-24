@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Patua+One&display=swap");
-* {
-  background-color: #121826;
-}
+
 header {
   background-color: #121826;
   display: flex;
@@ -35,6 +33,9 @@ a {
   font-weight: bold;
   padding: 0.8em;
 }
+h1{
+  margin-bottom: 1rem;
+}
 #bg {
   width: 100%;
   position: relative;
@@ -50,10 +51,14 @@ a {
 .btn {
   background-color: aquamarine;
   color: #121826;
+  /* padding: 0.372rem; */
+  margin-top: 25px;
+  margin-left: 1rem;
 }
 
 .para {
   max-width: 449px;
+  margin-top: 5rem;
 }
 .wrapper {
   display: flex;
